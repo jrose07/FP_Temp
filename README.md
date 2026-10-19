@@ -3,8 +3,9 @@
 1. Clone Repository and rename it to current Experiment
 2. Use "git clone <https of new Repo VXX>" to save new Repo into local files
 3. Use "make NAME='Experiment Name' " to rename inside the files
-4. Write the Python Script inside of "plot.py" 
-5. Write the Sections inside "vXXX/content"
+4.  Because of Some weird thing you then have to type 'rm ./.git/index' in order to commit the rename thing.
+5. Write the Python Script inside of "plot.py" 
+6. Write the Sections inside "vXXX/content"
 
 ###### Use make in different Modes #####
 

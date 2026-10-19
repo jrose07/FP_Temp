@@ -7,7 +7,7 @@ ifneq ($(NAME), vXXX)
 	@(mv vXXX $(NAME))
 endif
 	$(MAKE) -C $(NAME) MODE=$(MODE)
-	cp $(NAME)/build/tex/$(NAME).pdf $(NAME)_rosenbaum_hikade.pdf
+	cp $(NAME)/build/tex/$(NAME).pdf $(NAME)_rosenbaum_marschang.pdf
 
 plots:
 	$(MAKE) -C $(NAME) plot
